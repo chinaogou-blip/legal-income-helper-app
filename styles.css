@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Income Helper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">L</span>
+          <div>
+            <strong>Legal Income</strong>
+            <small>Helper</small>
+          </div>
+        </div>
+        <nav>
+          <a href="#form">Plan</a>
+          <a href="#legal">Légal</a>
+          <a href="#results">Résultat</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="badge">Sénégal • Débutant</span>
+            <h1>Créez une source de revenus légale et réaliste.</h1>
+            <p>
+              Trouvez la meilleure route pour gagner 1000 $/mois avec des infoproduits,
+              sans stress, sans arnaque, et en respectant les bases légales.
+            </p>
+            <div class="hero-stats">
+              <div>
+                <strong>3</strong>
+                <span>modèles testés</span>
+              </div>
+              <div>
+                <strong>30</strong>
+                <span>jours d'action</span>
+              </div>
+              <div>
+                <strong>1000$</strong>
+                <span>objectif cible</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>Le bon plan pour commencer</h3>
+            <ul>
+              <li>Choisir une compétence simple</li>
+              <li>Créer un mini-pack numérique</li>
+              <li>Vendre à une audience précise</li>
+              <li>Mettre en place la base légale</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="form" class="planner">
+          <div class="section-head">
+            <p>Planificateur</p>
+            <h2>Mon projet de revenu légal</h2>
+          </div>
+
+          <form id="plan-form" class="form-grid">
+            <div class="field">
+              <label for="competence">Quelle est votre compétence la plus forte ?</label>
+              <select id="competence" name="competence">
+                <option value="marketing">Marketing digital / réseaux sociaux</option>
+                <option value="excel">Excel / gestion / organisation</option>
+                <option value="langue">Rédaction / traduction / langues</option>
+                <option value="design">Design / Canva / visuel</option>
+                <option value="vente">Vente / négociation / prospection</option>
+                <option value="tech">Tech / outils / automatisation</option>
+                <option value="autre">Autre compétence</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="temps">Combien de temps pouvez-vous consacrer par semaine ?</label>
+              <select id="temps" name="temps">
+                <option value="4">4 heures</option>
+                <option value="6">6 heures</option>
+                <option value="8">8 heures</option>
+                <option value="10">10 heures</option>
+                <option value="15">15 heures</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="budget">Quel budget de lancement avez-vous ?</label>
+              <select id="budget" name="budget">
+                <option value="50">50 $</option>
+                <option value="100">100 $</option>
+                <option value="200">200 $</option>
+                <option value="400">400 $</option>
+                <option value="800">800 $</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="public">Qui est votre audience cible ?</label>
+              <select id="public" name="public">
+                <option value="etudiants">Étudiants / jeunes</option>
+                <option value="femmes">Femmes entrepreneuses</option>
+                <option value="marketeurs">Marketeurs / vendeurs</option>
+                <option value="freelancers">Freelances / indépendants</option>
+                <option value="commerçants">Commerçants / PME</option>
+                <option value="clients">Clients digitaux</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="produit">Quel type de produit préférez-vous vendre ?</label>
+              <select id="produit" name="produit">
+                <option value="guide">Guide PDF</option>
+                <option value="mini-cours">Mini-cours vidéo</option>
+                <option value="template">Pack de modèles / templates</option>
+                <option value="newsletter">Newsletter premium</option>
+                <option value="coaching">Accès à coaching / Q&A</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="prix">Quel prix moyen voulez-vous viser par produit ?</label>
+              <select id="prix" name="prix">
+                <option value="29">29 $</option>
+                <option value="49">49 $</option>
+                <option value="79">79 $</option>
+                <option value="99">99 $</option>
+                <option value="149">149 $</option>
+              </select>
+            </div>
+
+            <button type="submit" class="primary-btn">Générer mon plan</button>
+          </form>
+        </section>
+
+        <section id="results" class="results panel">
+          <div class="section-head">
+            <p>Résultat</p>
+            <h2>Votre plan personnalisé</h2>
+          </div>
+
+          <div id="result-content" class="result-content">
+            <div class="placeholder-box">
+              Remplissez le formulaire pour recevoir votre meilleure stratégie de revenu légal.
+            </div>
+          </div>
+        </section>
+
+        <section id="legal" class="legal panel">
+          <div class="section-head">
+            <p>Conformité</p>
+            <h2>Base légale à respecter</h2>
+          </div>
+
+          <div class="legal-grid">
+            <div class="legal-card">
+              <h3>1. Enregistrement</h3>
+              <p>
+                Vérifiez le statut juridique adapté à votre activité et les formalités de
+                déclaration locale, notamment au niveau du registre de commerce et des impôts.
+              </p>
+            </div>
+            <div class="legal-card">
+              <h3>2. Facturation</h3>
+              <p>
+                Gardez une traçabilité claire des ventes, de vos reçus et de vos paiements.
+                Établir des factures ou preuves de vente est essentiel.
+              </p>
+            </div>
+            <div class="legal-card">
+              <h3>3. Droits d’auteur</h3>
+              <p>
+                Votre contenu doit être original ou avoir les droits nécessaires. Restez transparent
+                sur les sources, les capacités et les promesses marketing.
+              </p>
+            </div>
+            <div class="legal-card">
+              <h3>4. Données clients</h3>
+              <p>
+                Sécurisez les informations de vos clients, surtout si vous collectez des
+                emails, numéros et paiements sur des plateformes numériques.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
